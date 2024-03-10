@@ -10,7 +10,7 @@ package graph
 
 import (
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/v6/identity"
+	"github.com/Nataliia5722/azure-devops-go-api/azuredevops/v6/identity"
 )
 
 type GraphCachePolicies struct {

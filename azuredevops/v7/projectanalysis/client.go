@@ -11,7 +11,7 @@ package projectanalysis
 import (
 	"context"
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/v7"
+	"github.com/Nataliia5722/azure-devops-go-api/azuredevops/v7"
 	"net/http"
 	"net/url"
 	"strconv"

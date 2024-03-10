@@ -10,10 +10,10 @@ package serviceendpoint
 
 import (
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/distributedtaskcommon"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/forminput"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/webapi"
+	"github.com/Nataliia5722/azure-devops-go-api/azuredevops"
+	"github.com/Nataliia5722/azure-devops-go-api/azuredevops/distributedtaskcommon"
+	"github.com/Nataliia5722/azure-devops-go-api/azuredevops/forminput"
+	"github.com/Nataliia5722/azure-devops-go-api/azuredevops/webapi"
 )
 
 type AadLoginPromptOption string

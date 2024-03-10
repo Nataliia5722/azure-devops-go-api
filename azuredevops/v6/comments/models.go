@@ -10,8 +10,8 @@ package comments
 
 import (
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/v6"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/v6/webapi"
+	"github.com/Nataliia5722/azure-devops-go-api/azuredevops/v6"
+	"github.com/Nataliia5722/azure-devops-go-api/azuredevops/v6/webapi"
 )
 
 // Comment on an artifact like Work Item or Wiki, etc.

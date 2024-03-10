@@ -10,8 +10,8 @@ package webapi
 
 import (
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/v6"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/v6/system"
+	"github.com/Nataliia5722/azure-devops-go-api/azuredevops/v6"
+	"github.com/Nataliia5722/azure-devops-go-api/azuredevops/v6/system"
 )
 
 // Information about the location of a REST API resource

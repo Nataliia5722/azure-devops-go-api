@@ -10,7 +10,7 @@ package packagingshared
 
 import (
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/v7"
+	"github.com/Nataliia5722/azure-devops-go-api/azuredevops/v7"
 )
 
 // Data required to delist or relist multiple package versions. Pass this while performing {protocol}BatchOperationTypes.List batch operation. There is another BatchListData in nuget assembly to maintain serialization compatibility.

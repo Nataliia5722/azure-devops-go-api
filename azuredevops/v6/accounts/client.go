@@ -11,7 +11,7 @@ package accounts
 import (
 	"context"
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/v6"
+	"github.com/Nataliia5722/azure-devops-go-api/azuredevops/v6"
 	"net/http"
 	"net/url"
 )

@@ -10,9 +10,9 @@ package servicehooks
 
 import (
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/forminput"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/webapi"
+	"github.com/Nataliia5722/azure-devops-go-api/azuredevops"
+	"github.com/Nataliia5722/azure-devops-go-api/azuredevops/forminput"
+	"github.com/Nataliia5722/azure-devops-go-api/azuredevops/webapi"
 )
 
 // Enumerates consumer authentication types.
