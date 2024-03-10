@@ -16,7 +16,6 @@ import (
 	"github.com/Nataliia5722/azure-devops-go-api/azuredevops/v7"
 	"github.com/Nataliia5722/azure-devops-go-api/azuredevops/v7/delegatedauthorization"
 	"github.com/Nataliia5722/azure-devops-go-api/azuredevops/v7/webapi"
-	"github.com/Nataliia5722/azure-devops-go-api/azuredevops/v7/graph"
 	"net/http"
 	"net/url"
 	"strconv"
