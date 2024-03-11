@@ -826,7 +826,7 @@ func (client *ClientImpl) ReadMembers(ctx context.Context, args ReadMembersArgs)
 	if args.QueryMembership != nil {
 		queryParams.Add("queryMembership", string(*args.QueryMembership))
 	}
-	locationId, _ := uuid.Parse("8ba35978-138e-41f8-8963-7b1ea2c5f775")
+	locationId, _ := uuid.Parse("005e26ec-6b77-4e4f-a986-b3827bf241f5")
 	resp, err := client.Client.Send(ctx, http.MethodGet, locationId, "5.1-preview.1", routeValues, queryParams, nil, "", "application/json", nil)
 	if err != nil {
 		return nil, err
