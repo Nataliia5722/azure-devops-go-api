@@ -66,11 +66,15 @@ var FrameworkIdentityTypeValues = frameworkIdentityTypeValuesType{
 	ImportedIdentity:  "importedIdentity",
 }
 
-type GraphMembership struct {
-	// This field contains zero or more interesting links about the graph membership. These links may be invoked to obtain additional relationships or more detailed information about this graph membership.
-	Links               interface{} `json:"_links,omitempty"`
-	ContainerDescriptor *string     `json:"containerDescriptor,omitempty"`
-	MemberDescriptor    *string     `json:"memberDescriptor,omitempty"`
+type Team struct {
+    Value []struct {
+        Identity []struct {
+            DisplayName string `json:"displayName"`
+			Url string `json:"url"`
+			Id string `json:"id"`
+			Descriptor string `json:"descriptor"`
+        } `json:"identity"`
+    } `json:"value"`
 }
 
 type GroupMembership struct {
