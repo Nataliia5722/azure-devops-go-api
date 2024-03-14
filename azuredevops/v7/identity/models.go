@@ -60,7 +60,7 @@ type groupScopeTypeValuesType struct {
 }
 type Team struct {
     Value []struct {
-        Identity []struct {
+        Identity struct {
             DisplayName string `json:"displayName"`
 			Url string `json:"url"`
 			Id string `json:"id"`
